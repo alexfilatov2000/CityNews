@@ -1,0 +1,16 @@
+[viewBag]
+==
+<p class="lead">
+    <strong>Забыли пароль?</strong> Введите свой email и пройдите верификацию.
+</p>
+
+<form
+    data-request="{{ __SELF__ }}::onRestorePassword"
+    data-request-update="'{{ __SELF__ }}::reset': '#partialUserResetForm'">
+    <div class="form-group">
+        <label for="userRestoreEmail">Email</label>
+        <input name="email" type="email" class="form-control" id="userRestoreEmail" placeholder="Введите свой email">
+    </div>
+
+    <button type="submit" class="btn btn-default">Восстановить пароль</button>
+</form>

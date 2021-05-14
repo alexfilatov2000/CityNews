@@ -1,0 +1,36 @@
+[viewBag]
+
+[searchInput]
+useAutoComplete = 0
+autoCompleteResultCount = 15
+showProviderBadge = 0
+searchPage = "search.htm"
+==
+<nav class="menu #4db6ac teal lighten-2">
+  <div class="nav-wrapper">
+  <img src="{{ 'assets/images/city64x64.png'|theme }}" style="margin-left: 50px;" alt="logo citynews">
+    <a href="/" class="brand-logo" style="margin-left: 50px"><span> Кривой Рог</span></a>
+                    
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">>
+                            <li><a href={{ 'search' |page }}><i class="material-icons">find_replace</i></a></li>
+	                  
+                                    {% if user %}
+                                    <li><span>Привет, {{ user.name }} !</span></li>
+                                              <li><a data-request = "onLogout" data-request-data = "redirect:'/good-bye'"> Выйти </a></li>
+                                               <li><a href={{ 'cabinet' |page }}>Личный кабинет</a></li> 
+                                        
+                                              <li><a href={{ 'forum' |page }}>Форум</a></li>   
+                                       {% else %}      
+                                      <li><a href={{ 'account' |page }} title="Sign in" target="_blank">Вход</a></li>	                                           
+                                        {% endif %}
+                                    
+                                
+                                    
+                                    <li><a href="#"  title="City 3D - Строим Город Вместе" class="d-link" target="_blank">Проекты</a></li>
+                                    <li><a href="#"  title="Камеры" class="cam-link" target="_blank">Он-лайн камеры</a></li>
+                                    <li><a href="#"  title="Погода" class="whether-link" target="_blank">Погода</a></li> 
+                                    <li><a href="#"  onClick="setSpec();return false;"  title="Курсы" class="special-link">Курсы валют</a></li>
+                       </ul>
+                                        
+   </div>
+</nav>

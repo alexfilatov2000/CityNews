@@ -1,0 +1,25 @@
+title = "search"
+url = "/search"
+layout = "default"
+is_hidden = 0
+
+[searchResults]
+resultsPerPage = 10
+showProviderBadge = 1
+noResultsMessage = "Your search returned no results."
+visitPageMessage = "Visit page"
+
+[searchInput]
+useAutoComplete = 1
+autoCompleteResultCount = 5
+showProviderBadge = 1
+searchPage = "search.htm"
+==
+<div class=wrapper-searh>
+
+<div class="container">
+<h2>Страница поиска</h2>
+{% component 'searchInput' %}
+<img src="https://cdn.oboi7.com/static/images/m/c1/8d/c18d59c1ed48212e181a1534e78de3464f9175d7.png" style="width:100%; max-height:50%" alt="">
+</div>
+</div>

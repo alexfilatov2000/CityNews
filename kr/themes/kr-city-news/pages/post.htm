@@ -1,0 +1,21 @@
+title = "post"
+url = "/blog/post/:slug"
+layout = "default"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "home"
+
+[commentsPost]
+==
+{##}
+<div class="container">
+<div class="content" style="width:100%">
+<h2>{{ post.title |_ }}</h2>
+				
+{% component 'blogPost' %}
+{% component 'commentsPost' %}
+</div>
+
+</div>

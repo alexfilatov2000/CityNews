@@ -1,0 +1,26 @@
+description = "header"
+
+[viewBag]
+==
+<nav class="#4db6ac teal lighten-2">
+  <div class="nav-wrapper">
+  <img src="{{ 'assets/images/cn64X64.png'|theme }}" style="margin-left: 50px;" alt="logo citynews">
+    <a href="/" class="brand-logo" style="margin-left: 50px"> CITY NEWS </a>
+      
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">>
+	                    <!-- Время -->
+                                <li style="padding-left:5px;padding-right:3px;line-height:38px;"><span id="id_time"></span>	
+                                <script>dttm = new Date(2021,3,2,14,56,27).valueOf();</script>
+	                            <script src="/css/designobjects/timer.js"></script>
+	                    </li>
+                        <!-- Температура -->
+                                    <li><a title="По ощущению: -4.62&deg;С"> 7&deg;С</a></li>	
+                                    <li><a href="#" title="Атлас города" class="atlas-link" target="_blank">Атлас города</a></li>	
+                                    <li><a href="#"  title="City 3D - Строим Город Вместе" class="d-link" target="_blank">.</a></li>
+                                    <li><a href="#"  title="Камеры" class="cam-link" target="_blank">.</a></li>
+                                    <li><a href="#" title="Личный кабинет" class="home-link">Личный кабинет</a></li>
+                                    <li><a href="https://www.kr.citynews.com.ua"  onClick="setSpec();return false;"  title="Перейти на сайт" class="special-link">Перейти на сайт</a></li>
+                       </ul>
+   </div>
+</nav>
+<img src="https://city.diia.gov.ua/assets/img/pages/city.jpg" style="width:100%" alt="">

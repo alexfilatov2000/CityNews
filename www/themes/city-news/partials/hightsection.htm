@@ -1,0 +1,49 @@
+description = "hightsection"
+
+[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "home"
+postPage = "post"
+==
+<div class="divider"></div>
+  <div class="section">
+    <h5>Section 1</h5>
+    <fieldset class="border--top-right pattern-fill">
+                        <div class="transparent-overlay d-none"></div>
+  {% set posts = blogPosts.posts %} 
+  {% for post in posts %}
+    <a class="cc cc--curated-hero-white image--hover-zoom " 
+	href="{{ post.url }}"
+       
+	<div class="cc--caption">	
+        <span class="misc--tag">{{ category.name }}</span>
+        <p class="title">{{ post.title }}</p>
+		<p class="text">{{ post.excerpt }}</p>
+    </div>
+		
+		
+        <div class="cc--image">
+            
+<picture class="cc--photo">
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        
+        
+       <!-- <source data-srcset="https://www.formula1.com/content/dam/fom-website/manual/Misc/2021preseason/DynastyEnds/GettyImages-864176200.jpg.transform/6col/image.jpg, https://www.formula1.com/content/dam/fom-website/manual/Misc/2021preseason/DynastyEnds/GettyImages-864176200.jpg.transform/6col-retina/image.jpg 2x" media="(min-width: 768px)"/>
+        <source data-srcset="https://www.formula1.com/content/dam/fom-website/manual/Misc/2021preseason/DynastyEnds/GettyImages-864176200.jpg.transform/4col/image.jpg, https://www.formula1.com/content/dam/fom-website/manual/Misc/2021preseason/DynastyEnds/GettyImages-864176200.jpg.transform/4col-retina/image.jpg 2x"/>
+        <!--[if IE 9]></video><![endif]-->
+       <!-- <img data-src="https://www.formula1.com/content/dam/fom-website/manual/Misc/2021preseason/DynastyEnds/GettyImages-864176200.jpg.transform/9col/image.jpg" alt="GettyImages-864176200.jpg" class="lazy"/>-->
+{% for image in post.featured_images|slice(0,1) %}
+<img src='{{ image.path }}'  alt='{{ post.title }}' />
+{% endfor %}     
+</picture>    
+        </div>
+    </a>
+{% endfor %}
+</fieldset>
+  </div>
+ </div>

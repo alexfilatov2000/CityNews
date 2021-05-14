@@ -1,0 +1,13 @@
+1620990344a:1:{s:10:"slider.htm";a:6:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:421:"[viewBag]
+==
+<div class="slider" style="position:relative;">
+<img src="https://st.weblancer.net/download/1308956.jpg" style="width:100%;height:100%;" alt="">
+<div class="emblem" style="position:absolute;bottom:8em;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_Arms_of_Kryvyi_Rih.svg/1200px-Coat_of_Arms_of_Kryvyi_Rih.svg.png" style="width:10%;margin-left:50px;" alt="">
+</div>
+</div>";s:5:"mtime";i:1620733851;s:6:"markup";s:408:"<div class="slider" style="position:relative;">
+<img src="https://st.weblancer.net/download/1308956.jpg" style="width:100%;height:100%;" alt="">
+<div class="emblem" style="position:absolute;bottom:8em;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_Arms_of_Kryvyi_Rih.svg/1200px-Coat_of_Arms_of_Kryvyi_Rih.svg.png" style="width:10%;margin-left:50px;" alt="">
+</div>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

@@ -1,0 +1,202 @@
+[viewBag]
+
+[blogPosts blogPosts5]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+
+[blogPosts blogPosts6]
+pageNumber = "{{ :page }}"
+postsPerPage = 4
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+
+[blogPosts blogPosts7]
+pageNumber = "{{ :page }}"
+postsPerPage = 15
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+
+[blogPosts blogPosts8]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+
+[blogPosts blogPosts9]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+
+[blogPosts blogPosts10]
+pageNumber = "{{ :page }}"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "account"
+postPage = "account"
+==
+<div class="section">
+
+<div class="row">
+
+
+    <div class="col s12 m2">
+    <h5>{{ 'События' |title }}</h5>
+        {% set posts = blogPosts5.posts %} 
+        {% for post in posts %}
+        <div class="card-image">
+        {% for image in post.featured_images|slice(0,1) %}
+          <img src='{{ image.path }}' style='width:100%' alt='{{ post.title }}' />
+          {% endfor %}   
+        </div>
+         {% endfor %}
+    </div>
+    
+
+   <div class="col s12 m8">
+       <h5>{{ 'Политика' |title }}</h5>
+       <div class="row">
+        {% set posts = blogPosts6.posts %} 
+        {% for post in posts %}  
+        
+    <div class="col s12 m3">
+      <div class="card hoverable small">    
+        <div class="card-image">
+        {% for image in post.featured_images|slice(0,1) %}
+          <img src='{{ image.path }}' style='width:100%' alt='{{ post.title }}' />
+          {% endfor %}  
+          <span class="card-title"><i class="material-icons">textsms</i></span>
+        </div>       
+        <div class="card-content">
+        <p href="{{ post.url }}">{{ post.title }}</p>
+         <p>{{ post.excerpt }}</p>
+        </div>            
+        <div class="card-action">
+          <a href="{{ post.url }}">Читать далее ...</a>
+        </div>
+      </div>    
+      <div class="mobil-card">      
+          <a class="card-title" href="{{ post.url }}"><span class="grey-text">{{ post.title }}</span></a>
+        </div> 
+        </div> 
+      {% endfor %}
+    </div> 
+    <a class="waves-effect waves-light btn"><i class="material-icons right">thumb_down</i>смотреть все новости рубрики</a>
+      
+      <h5>{{ 'В городе' |title }}</h5>
+       <div class="row">
+        {% set posts = blogPosts6.posts %} 
+        {% for post in posts %}  
+        
+    <div class="col s12 m3">
+      <div class="card hoverable small">    
+        <div class="card-image">
+        {% for image in post.featured_images|slice(0,1) %}
+          <img src='{{ image.path }}' style='width:100%' alt='{{ post.title }}' />
+          {% endfor %}  
+          <span class="card-title"><i class="material-icons">textsms</i></span>
+        </div>       
+        <div class="card-content">
+        <p href="{{ post.url }}">{{ post.title }}</p>
+         <p>{{ post.excerpt }}</p>
+        </div>            
+        <div class="card-action">
+          <a href="{{ post.url }}">Читать далее ...</a>
+        </div>
+      </div>    
+      <div class="mobil-card">      
+          <a class="card-title" href="{{ post.url }}"><span class="grey-text">{{ post.title }}</span></a>
+        </div> 
+        </div> 
+      {% endfor %}
+    </div> 
+    <a class="waves-effect waves-light btn"><i class="material-icons right">business</i>смотреть все новости рубрики</a>
+      
+      <h5>{{ 'Спорт' |title }}</h5>
+       <div class="row">
+        {% set posts = blogPosts6.posts %} 
+        {% for post in posts %}  
+        
+    <div class="col s12 m3">
+      <div class="card hoverable small">    
+        <div class="card-image">
+        {% for image in post.featured_images|slice(0,1) %}
+          <img src='{{ image.path }}' style='width:100%' alt='{{ post.title }}' />
+          {% endfor %}  
+          <span class="card-title"><i class="material-icons">textsms</i></span>
+        </div>       
+        <div class="card-content">
+        <p href="{{ post.url }}">{{ post.title }}</p>
+         <p>{{ post.excerpt }}</p>
+        </div>            
+        <div class="card-action">
+          <a href="{{ post.url }}">Читать далее ...</a>
+        </div>
+      </div>    
+      <div class="mobil-card">      
+          <a class="card-title" href="{{ post.url }}"><span class="grey-text">{{ post.title }}</span></a>
+        </div> 
+        </div> 
+      {% endfor %}
+    </div> 
+    <a class="waves-effect waves-light btn"><i class="material-icons right">directions_run</i>смотреть все новости рубрики</a>
+      
+      <h5>{{ 'Обо всем' |title }}</h5>
+       <div class="row">
+        {% set posts = blogPosts6.posts %} 
+        {% for post in posts %}  
+        
+    <div class="col s12 m3">
+      <div class="card hoverable small">    
+        <div class="card-image">
+        {% for image in post.featured_images|slice(0,1) %}
+          <img src='{{ image.path }}' style='width:100%' alt='{{ post.title }}' />
+          {% endfor %}  
+          <span class="card-title"><i class="material-icons">textsms</i></span>
+        </div>       
+        <div class="card-content">
+        <p href="{{ post.url }}">{{ post.title }}</p>
+         <p>{{ post.excerpt }}</p>
+        </div>            
+        <div class="card-action">
+          <a href="{{ post.url }}">Читать далее ...</a>
+        </div>
+      </div>    
+      <div class="mobil-card">      
+          <a class="card-title" href="{{ post.url }}"><span class="grey-text">{{ post.title }}</span></a>
+        </div> 
+        </div> 
+      {% endfor %}
+    </div> 
+    <a class="waves-effect waves-light btn"><i class="material-icons right">cast_connected</i>смотреть все новости рубрики</a> 
+      
+    </div>
+    
+<div class="col s12 m2">
+      <h5>{{ 'Справочники' |title }}</h5>  
+       {% set posts = blogPosts7.posts %} 
+        {% for post in posts %}
+    
+      <ul class="card">        
+          <li class="news"><a href="{{ post.url }}">{{ post.title }}<span class="grey-text"> ({{ post.excerpt }})</span></a></li>    
+        </ul>          
+      <div class="mobil-card">     
+          <a class="card-title" href="{{ post.url }}"><span class="grey-text">{{ post.title }}</span></a>
+        </div>     
+      {% endfor %}          
+    </div>
+  </div>
+</div>

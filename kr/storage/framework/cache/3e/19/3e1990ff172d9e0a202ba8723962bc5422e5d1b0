@@ -1,0 +1,35 @@
+1620990344a:1:{s:10:"navbar.htm";a:6:{s:8:"fileName";s:10:"navbar.htm";s:7:"content";s:599:"[viewBag]
+==
+<div class="navbar">
+<div class="container">
+<nav class="menu grey darken-4">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+        <li><a href="sass.html">Города</a></li>
+        <li><a href="badges.html">Галерея</a></li>
+        <li><a href="collapsible.html">Прочее</a></li>
+        <li><a href="sass.html">Маркетинг</a></li>
+        <li><a href="badges.html">Партнеры</a></li>
+        <li><a href="collapsible.html">Акции</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+  </div>
+</div>";s:5:"mtime";i:1620733616;s:6:"markup";s:586:"<div class="navbar">
+<div class="container">
+<nav class="menu grey darken-4">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+        <li><a href="sass.html">Города</a></li>
+        <li><a href="badges.html">Галерея</a></li>
+        <li><a href="collapsible.html">Прочее</a></li>
+        <li><a href="sass.html">Маркетинг</a></li>
+        <li><a href="badges.html">Партнеры</a></li>
+        <li><a href="collapsible.html">Акции</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+  </div>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

@@ -1,0 +1,32 @@
+1620990344a:1:{s:10:"search.htm";a:11:{s:8:"fileName";s:10:"search.htm";s:7:"content";s:608:"title = "search"
+url = "/search"
+layout = "default"
+is_hidden = 0
+
+[searchResults]
+resultsPerPage = 10
+showProviderBadge = 1
+noResultsMessage = "Your search returned no results."
+visitPageMessage = "Visit page"
+
+[searchInput]
+useAutoComplete = 1
+autoCompleteResultCount = 5
+showProviderBadge = 1
+searchPage = "search.htm"
+==
+<div class=wrapper-searh>
+
+<div class="container">
+<h2>Страница поиска</h2>
+{% component 'searchInput' %}
+<img src="https://cdn.oboi7.com/static/images/m/c1/8d/c18d59c1ed48212e181a1534e78de3464f9175d7.png" style="width:100%; max-height:50%" alt="">
+</div>
+</div>";s:5:"mtime";i:1620847138;s:6:"markup";s:283:"<div class=wrapper-searh>
+
+<div class="container">
+<h2>Страница поиска</h2>
+{% component 'searchInput' %}
+<img src="https://cdn.oboi7.com/static/images/m/c1/8d/c18d59c1ed48212e181a1534e78de3464f9175d7.png" style="width:100%; max-height:50%" alt="">
+</div>
+</div>";s:4:"code";N;s:5:"title";s:6:"search";s:3:"url";s:7:"/search";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:13:"searchResults";a:4:{s:14:"resultsPerPage";s:2:"10";s:17:"showProviderBadge";s:1:"1";s:16:"noResultsMessage";s:32:"Your search returned no results.";s:16:"visitPageMessage";s:10:"Visit page";}s:11:"searchInput";a:4:{s:15:"useAutoComplete";s:1:"1";s:23:"autoCompleteResultCount";s:1:"5";s:17:"showProviderBadge";s:1:"1";s:10:"searchPage";s:10:"search.htm";}}}

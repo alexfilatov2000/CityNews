@@ -1,0 +1,16 @@
+1620990344a:1:{s:11:"account.htm";a:10:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:213:"title = "account"
+url = "/account"
+layout = "default"
+is_hidden = 0
+
+[account]
+redirect = "home"
+paramCode = "code"
+forceSecure = 0
+requirePassword = 0
+==
+<div class="container">
+{% component 'account' %}
+</div>";s:5:"mtime";i:1620540697;s:6:"markup";s:58:"<div class="container">
+{% component 'account' %}
+</div>";s:4:"code";N;s:5:"title";s:7:"account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:7:"account";a:4:{s:8:"redirect";s:4:"home";s:9:"paramCode";s:4:"code";s:11:"forceSecure";s:1:"0";s:15:"requirePassword";s:1:"0";}}}

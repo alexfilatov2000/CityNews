@@ -1,0 +1,10 @@
+name: Profiles
+form: $/grd/cabinet/models/profile/fields.yaml
+modelClass: Grd\Cabinet\Models\Profile
+defaultRedirect: grd/cabinet/profiles
+create:
+    redirect: 'grd/cabinet/profiles/update/:id'
+    redirectClose: grd/cabinet/profiles
+update:
+    redirect: grd/cabinet/profiles
+    redirectClose: grd/cabinet/profiles

@@ -1,0 +1,75 @@
+[session]
+security = "all"
+redirect = "home"
+
+[searchInput]
+useAutoComplete = 1
+autoCompleteResultCount = 15
+showProviderBadge = 0
+searchPage = "search.htm"
+
+[commentsPost]
+==
+<!DOCTYPE html>
+  <html class="no-js editmode-false" lang="ru">
+<!--<![endif]-->
+
+<!--HEAD-->
+<!DOCTYPE html>
+<head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+            <title>CITY NEWS - The Official Home of CITY NEWS UKRAINE - {{ this.page.title }}</title>
+            <meta name="description" content="The best news site for advertising"/>
+            <link rel="canonical" href="https://www.sitynews.com.ua/en.html"/>	
+           
+       
+        	
+        	
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+
+     <link type="text/css" rel="stylesheet" href="{{ 'assets/css/materialize.min.css'|theme }}"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}" media="screen,projection"/>
+
+    
+      
+        	<link rel="shortcut icon" type="image/x-icon" href="{{ 'assets/images/favicon.ico'|theme }}"/>
+			<link rel="icon" sizes="192X192" href="{{ 'assets/images/cn300X300.png'|theme }}"/>
+			<link rel="icon" sizes="128X128" href="{{ 'assets/images/cn128X128.png'|theme }}"/>
+			<link rel="icon" sizes="32X32" href="{{ 'assets/images/favicon-32X32.png'|theme }}"/>
+			<link rel="icon" sizes="16X16" href="{{ 'assets/images/favicon-16X16.png'|theme }}"/>
+			
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>		
+<script src="{{ 'assets/js/jquery-2.1.1.min.js'|theme }}"></script>
+  <script src="{{ 'assets/js/materialize.js'|theme }}"></script>
+  <script src="{{ 'assets/js/init.js'|theme }}"></script>
+
+
+
+			
+</head>
+
+
+<body class="#eeeeee grey lighten-3">
+
+{% partial 'm-sidenav' %}
+
+
+         {% partial 'header' %}
+  
+         {% page %}
+
+
+         {% partial 'footer' %}
+
+      <!-- Compiled and minified JavaScript -->
+        {% framework extras %}
+        {% scripts %}
+
+</body>
+</html>

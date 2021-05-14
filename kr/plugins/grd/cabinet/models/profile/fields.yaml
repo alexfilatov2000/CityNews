@@ -1,0 +1,14 @@
+fields:
+    name:
+        label: Text
+        span: auto
+        type: text
+    description:
+        label: 'Rich editor'
+        size: ''
+        span: auto
+        type: richeditor
+    email:
+        label: Text
+        span: auto
+        type: text

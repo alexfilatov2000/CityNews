@@ -1,0 +1,66 @@
+1620845967a:1:{s:8:"post.htm";a:10:{s:8:"fileName";s:8:"post.htm";s:7:"content";s:1251:"title = "post"
+url = "/post"
+layout = "default"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "home"
+==
+<main class="" id="">
+		<div class="article" data-component-type="article" data-component-id="__article_component__" data-article-id="6Dvc1Wh0NMPqZNqBIwIZHU">
+			<div class="theme--default">
+				<div class="article--hero article--pattern article--pattern-theme f1-bg--theme">
+					<div class="container color--theme">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8 offset-xl-1 article--content">
+											<p class="title">{{ post.title }}</p>
+											{% if not category %}
+											<span class="misc--tag">Category not found</span>
+											{% else %}
+											<span class="misc--tag">{{ category.name }}</span>
+											{% component 'blogPosts' %}
+											{% endif %}
+											
+{% component 'blogPost' %}
+
+<div class="blog-stat">    
+<span class="blog-stat--item"><p style="color:black;"><object class="icon red" type="image/svg+xml" data="{{'assets/images/eye.svg' |theme }}" style="width:12px;padding-top:5%;" ></object> {{ post.views }}</p></span>
+	</div>
+</div>
+</div></div>
+</div></div>
+</div>
+</div>
+</div>
+</main>";s:5:"mtime";i:1617385155;s:6:"markup";s:1131:"<main class="" id="">
+		<div class="article" data-component-type="article" data-component-id="__article_component__" data-article-id="6Dvc1Wh0NMPqZNqBIwIZHU">
+			<div class="theme--default">
+				<div class="article--hero article--pattern article--pattern-theme f1-bg--theme">
+					<div class="container color--theme">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="row">
+									<div class="col-lg-8 offset-xl-1 article--content">
+											<p class="title">{{ post.title }}</p>
+											{% if not category %}
+											<span class="misc--tag">Category not found</span>
+											{% else %}
+											<span class="misc--tag">{{ category.name }}</span>
+											{% component 'blogPosts' %}
+											{% endif %}
+											
+{% component 'blogPost' %}
+
+<div class="blog-stat">    
+<span class="blog-stat--item"><p style="color:black;"><object class="icon red" type="image/svg+xml" data="{{'assets/images/eye.svg' |theme }}" style="width:12px;padding-top:5%;" ></object> {{ post.views }}</p></span>
+	</div>
+</div>
+</div></div>
+</div></div>
+</div>
+</div>
+</div>
+</main>";s:4:"code";N;s:5:"title";s:4:"post";s:3:"url";s:5:"/post";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:4:"home";}}}

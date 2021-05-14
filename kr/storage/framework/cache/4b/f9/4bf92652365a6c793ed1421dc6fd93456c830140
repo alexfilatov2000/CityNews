@@ -1,0 +1,29 @@
+1620856841a:1:{s:25:"resetPassword/restore.htm";a:6:{s:8:"fileName";s:25:"resetPassword/restore.htm";s:7:"content";s:632:"[viewBag]
+==
+<p class="lead">
+    <strong>Забыли пароль?</strong> Введите свой email и пройдите верификацию.
+</p>
+
+<form
+    data-request="{{ __SELF__ }}::onRestorePassword"
+    data-request-update="'{{ __SELF__ }}::reset': '#partialUserResetForm'">
+    <div class="form-group">
+        <label for="userRestoreEmail">Email</label>
+        <input name="email" type="email" class="form-control" id="userRestoreEmail" placeholder="Введите свой email">
+    </div>
+
+    <button type="submit" class="btn btn-default">Восстановить пароль</button>
+</form>";s:5:"mtime";i:1620727834;s:6:"markup";s:619:"<p class="lead">
+    <strong>Забыли пароль?</strong> Введите свой email и пройдите верификацию.
+</p>
+
+<form
+    data-request="{{ __SELF__ }}::onRestorePassword"
+    data-request-update="'{{ __SELF__ }}::reset': '#partialUserResetForm'">
+    <div class="form-group">
+        <label for="userRestoreEmail">Email</label>
+        <input name="email" type="email" class="form-control" id="userRestoreEmail" placeholder="Введите свой email">
+    </div>
+
+    <button type="submit" class="btn btn-default">Восстановить пароль</button>
+</form>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

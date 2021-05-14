@@ -1,0 +1,9 @@
+1620990344a:1:{s:14:"reset-pass.htm";a:10:{s:8:"fileName";s:14:"reset-pass.htm";s:7:"content";s:144:"title = "reset-pass"
+url = "/reset-pass"
+layout = "default"
+is_hidden = 0
+
+[resetPassword]
+paramCode = "code"
+==
+{% component 'resetPassword' %}";s:5:"mtime";i:1620540382;s:6:"markup";s:31:"{% component 'resetPassword' %}";s:4:"code";N;s:5:"title";s:10:"reset-pass";s:3:"url";s:11:"/reset-pass";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:13:"resetPassword";a:1:{s:9:"paramCode";s:4:"code";}}}

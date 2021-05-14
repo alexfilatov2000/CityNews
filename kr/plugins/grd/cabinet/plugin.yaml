@@ -1,0 +1,16 @@
+plugin:
+    name: 'grd.cabinet::lang.plugin.name'
+    description: 'grd.cabinet::lang.plugin.description'
+    author: GRD
+    icon: oc-icon-briefcase
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'grd.cabinet::lang.plugin.name'
+        url: grd/cabinet/profiles
+        icon: icon-briefcase
+        sideMenu:
+            side-menu-item:
+                label: 'grd.cabinet::lang.GRD'
+                url: grd/cabinet/profiles
+                icon: icon-user-md

@@ -1,0 +1,50 @@
+1620990344a:1:{s:13:"m-sidenav.htm";a:6:{s:8:"fileName";s:13:"m-sidenav.htm";s:7:"content";s:1105:"==
+<nav class="mobil-menu" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper">
+     
+        <ul class="right">
+          <li><a href="#"></a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="apxlabs.html">APX Labs</a></li>
+          <li><a href="cloudon.html">CloudOn</a></li>
+            
+            <li><a href="replicon.html">Replicon</a></li>
+             <li><a href="past_projects.html">Past Projects</a></li>
+            
+            
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons #4db6ac teal lighten-2">menu</i></i></a>
+<a id="logo-container" href="#" class="navigationactionbarcontentscreentitle">CITY NEWS Кривой Рог</a>   
+      </div>
+    </div>
+  </nav>
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_Arms_of_Kryvyi_Rih.svg/1200px-Coat_of_Arms_of_Kryvyi_Rih.svg.png" class="mobil-emblem" style="width:20%; top:50px; margin-left:40%;" alt="">";s:5:"mtime";i:1617481021;s:6:"markup";s:1102:"<nav class="mobil-menu" role="navigation">
+    <div class="container">
+      <div class="nav-wrapper">
+     
+        <ul class="right">
+          <li><a href="#"></a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="apxlabs.html">APX Labs</a></li>
+          <li><a href="cloudon.html">CloudOn</a></li>
+            
+            <li><a href="replicon.html">Replicon</a></li>
+             <li><a href="past_projects.html">Past Projects</a></li>
+            
+            
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons #4db6ac teal lighten-2">menu</i></i></a>
+<a id="logo-container" href="#" class="navigationactionbarcontentscreentitle">CITY NEWS Кривой Рог</a>   
+      </div>
+    </div>
+  </nav>
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_Arms_of_Kryvyi_Rih.svg/1200px-Coat_of_Arms_of_Kryvyi_Rih.svg.png" class="mobil-emblem" style="width:20%; top:50px; margin-left:40%;" alt="">";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

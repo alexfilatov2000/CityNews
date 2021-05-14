@@ -1,0 +1,55 @@
+[viewBag]
+==
+{% if canRegister %}
+    <h3>Регистрация</h3>
+
+    {{ form_ajax('onRegister') }}
+
+        <div class="form-group">
+            <label for="registerName">Имя</label>
+            <input
+                name="name"
+                type="text"
+                class="form-control"
+                id="registerName"
+                placeholder="Введите свое имя" />
+        </div>
+
+        <div class="form-group">
+            <label for="registerEmail">Email</label>
+            <input
+                name="email"
+                type="email"
+                class="form-control"
+                id="registerEmail"
+                placeholder="Введите свой email" />
+        </div>
+
+        {% if loginAttribute == "username" %}
+            <div class="form-group">
+                <label for="registerUsername">Логин</label>
+                <input
+                    name="username"
+                    type="text"
+                    class="form-control"
+                    id="registerUsername"
+                    placeholder="Введите свой логин" />
+            </div>
+        {% endif %}
+
+        <div class="form-group">
+            <label for="registerPassword">Пароль</label>
+            <input
+                name="password"
+                type="password"
+                class="form-control"
+                id="registerPassword"
+                placeholder="Введите пароль не менее 8 знаков" />
+        </div>
+
+        <button type="submit" class="btn btn-default">Регистрация</button>
+
+    {{ form_close() }}
+{% else %}
+    <!-- Registration is disabled. -->
+{% endif %}

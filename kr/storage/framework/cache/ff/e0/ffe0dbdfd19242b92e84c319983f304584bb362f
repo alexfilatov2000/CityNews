@@ -1,0 +1,52 @@
+1620916688a:1:{s:19:"account/default.htm";a:7:{s:8:"fileName";s:19:"account/default.htm";s:7:"content";s:572:"[viewBag]
+
+[resetPassword]
+paramCode = "code"
+==
+{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Вход</h3>
+            {% partial __SELF__ ~ '::signin' %}
+        </div>
+
+        <div class="col-md-6">
+            {% partial __SELF__ ~ '::register' %}
+        </div>
+<div class="col-md-6">{% component 'resetPassword' %}</div>
+    </div>
+
+{% else %}
+
+    {% partial __SELF__ ~ '::activation_check' %}
+
+    {% partial __SELF__ ~ '::update' %}
+
+    {% partial __SELF__ ~ '::deactivate_link' %}
+
+{% endif %}";s:5:"mtime";i:1620727536;s:6:"markup";s:523:"{% if not user %}
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Вход</h3>
+            {% partial __SELF__ ~ '::signin' %}
+        </div>
+
+        <div class="col-md-6">
+            {% partial __SELF__ ~ '::register' %}
+        </div>
+<div class="col-md-6">{% component 'resetPassword' %}</div>
+    </div>
+
+{% else %}
+
+    {% partial __SELF__ ~ '::activation_check' %}
+
+    {% partial __SELF__ ~ '::update' %}
+
+    {% partial __SELF__ ~ '::deactivate_link' %}
+
+{% endif %}";s:4:"code";N;s:7:"viewBag";a:0:{}s:13:"resetPassword";a:1:{s:9:"paramCode";s:4:"code";}}}

@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table grd_cabinet_profile'
+    - builder_table_create_grd_cabinet_profile.php
